@@ -112,6 +112,10 @@ blockquote {
   font-family: 'Roboto Slab', serif;
   text-align: center;
   overflow: hidden; }
+  .App a {
+    color: #3ab9d8; }
+    .App a:hover {
+      color: #61DAFB; }
 
 .App-logo {
   animation: App-logo-spin infinite 10s linear;
@@ -138,11 +142,6 @@ blockquote {
   font: normal 1.2rem/1.2rem Arial, sans-serif;
   color: #777;
   padding: 15px; }
-
-.small-link {
-  color: #3ab9d8; }
-  .small-link:hover {
-    color: #61DAFB; }
 
 @keyframes App-logo-spin {
   from {
