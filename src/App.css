@@ -104,11 +104,14 @@ blockquote {
   padding-left: 20px;
   border-left: 5px solid #adadad; }
 
-body {
-  font-family: 'Roboto Slab', serif; }
-
+@media all and (max-width: 768px) {
+  .col-1-2 {
+    display: block;
+    width: 100%; } }
 .App {
-  text-align: center; }
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  overflow: hidden; }
 
 .App-logo {
   animation: App-logo-spin infinite 10s linear;
@@ -136,10 +139,18 @@ body {
   color: #777;
   padding: 15px; }
 
+.small-link {
+  color: #3ab9d8; }
+  .small-link:hover {
+    color: #61DAFB; }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg); }
   to {
     transform: rotate(360deg); } }
+@media all and (max-width: 768px) {
+  .theTextarea {
+    min-height: 200px; } }
 
 /*# sourceMappingURL=App.css.map */

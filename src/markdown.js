@@ -26,7 +26,7 @@ class Markdown extends Component {
 			<div>
 				<div className="inputDiv col-1-2">
 					<form>
-						<textarea className="theTextarea" value={this.state.value} onChange={this.handleChange} />
+						<textarea className="theTextarea" value={this.state.value} placeholder="Your markdown here.." onChange={this.handleChange} />
 					</form>
 				</div><div className="displayDiv col-1-2">
 					<div dangerouslySetInnerHTML={this.getMarkdownText()} />

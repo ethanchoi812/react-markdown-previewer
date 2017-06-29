@@ -13,6 +13,7 @@ class App extends Component {
           <h1>React Markdown Previewer</h1>
         </div>
         <Markdown />
+        <small><a className="small-link" href="https://github.com/ethanchoi812/react-markdown-previewer">Link to GitHub repo</a></small>
       </div>
     );
   }

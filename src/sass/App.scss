@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 @import 'reset';
 @import 'base';
 
 .App {
+  font-family: 'Roboto Slab', serif;
   text-align: center;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -36,7 +39,21 @@
   padding: 15px;
 }
 
+.small-link {
+	color: #3ab9d8;
+
+	&:hover{
+	color: #61DAFB;
+	}
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+@media all and (max-width: 768px){
+    .theTextarea {
+      min-height: 200px;
+  }
 }
